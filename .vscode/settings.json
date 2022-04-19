@@ -1,0 +1,6 @@
+{
+    "pasteImage.basePath": "${currentFileDir}",
+    "pasteImage.defaultName": "YMMDDHHmmss",
+    "pasteImage.namePrefix": "img.",
+    "pasteImage.path": "${currentFileDir}/vx_images"
+}
