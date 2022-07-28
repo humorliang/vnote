@@ -63,7 +63,18 @@ git merge upstream/master
 
 git push origin master
 
-# gitlab 界面fork 仓库的界面会出现 Create merge request 的请求按钮
+# gitlab 界面fork 仓库的界面会出现 Create merge request 的请求按钮，在本地的仓库提MR 到远程仓库和分支
 
 # 点击之后，Change breanchs , 选择当前的仓库分支 以及选择要合并的对应的上游仓库的分支，进行合并即可
+
+在origin 仓库提MR 到 上游仓库
+```
+
+### git 回滚操作
+```sh
+# 回滚到上一个版本
+git reset --hard HEAD^
+
+# 强制推送到远程分支 更新仓库
+git push -f origin v2.25.1.0
 ```
